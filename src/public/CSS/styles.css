@@ -1,0 +1,38 @@
+body{
+    background: #f5f6f5;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.index{
+    width: 100vw;
+    height: 100vh;
+}
+
+.masthead{
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    background: url('/img/escritoriobg.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.masthead h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.logoSigin{
+    width: 10rem;
+    height: auto;
+}
+
+@media (min-width: 720px){
+    .masthead h1{
+        font-size: 5.5rem;
+    }
+}
+
